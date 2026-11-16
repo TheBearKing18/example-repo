@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- Container for the shopping list -->
+  <div class="container">
+    <h2>Shopping List</h2>
+
+    <!-- Input field for entering a new grocery item -->
+    <label for="input">Add an item</label>
+    <input id="input" type="text" />
+
+    <!-- Button calls addItems when clicked -->
+    <button id="addButton" type="button" onclick="addItems()">Add item</button>
+
+    <!-- Items will be added here using JavaScript -->
+    <ul id="itemList"></ul>
+  </div>
+
+  <!-- JavaScript file -->
+  <script src="main.js"></script>
+
+</body>
+</html>
